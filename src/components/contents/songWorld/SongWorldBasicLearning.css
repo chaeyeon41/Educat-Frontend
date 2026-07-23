@@ -1,0 +1,28 @@
+.song-world-container {
+  display: flex;
+  align-items: center;
+}
+
+.song-world-image {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.song-world-image img {
+  height: 100%;
+}
+
+.song-world-sentence-container {
+  width: 450px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.song-world-sentence {
+  margin-bottom: 20px;
+}

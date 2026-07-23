@@ -1,0 +1,94 @@
+.main-teacher-container-2 {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-teacher-top-container-2 {
+  display: flex;
+  height: 700px;
+  margin-bottom: 20px;
+}
+
+.main-student-top-chart-2 {
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-student-comment-container {
+  display: flex;
+  margin-top: 20px;
+  height: 100px;
+  width: 100%;
+}
+
+.main-student-comment {
+  width: 80%;
+  background-color: #ffffff;
+  margin: 0 10px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: large;
+}
+
+.main-student-comment-button {
+  width: 20%;
+  background-color: #ffffff;
+  margin: 0 10px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.main-student-comment-button:hover {
+  cursor: pointer;
+}
+
+.main-student-top-buttons-2 {
+  flex: 1;
+}
+
+.main-student-top-button {
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.main-student-top-button:hover {
+  cursor: pointer;
+}
+
+.main-student-list {
+  flex: 3;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-student-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6daff;
+  width: 90%;
+  height: 50px;
+  margin: 10px 0;
+  border-radius: 20px;
+}

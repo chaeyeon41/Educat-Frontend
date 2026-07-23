@@ -1,0 +1,92 @@
+.container {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.7%;
+}
+
+.studyMain-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.95); /* 90% opacity */
+  border-radius: 5px;
+  position: relative; /* Make sure this is set to relative */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+    /* 기본 그림자 */ 0 6px 20px rgba(0, 0, 0, 0.1); /* 더 부드러운 그림자 */
+  padding: 10px;
+}
+
+.studyMain-name-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  left: 0;
+  top: 0;
+}
+
+.studyMain-box-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.studyMain-timer-check-next-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
+.concentration-timer {
+  margin-bottom: 10px;
+}
+
+.timer-container {
+  margin-bottom: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.time-timer {
+  margin-top: -70px;
+}
+
+.studyMain-timer-check-next-container {
+  position: relative;
+}
+
+.next-img {
+  position: absolute;
+  margin-left: 113%;
+  cursor: pointer;
+}
+
+.studyMain-nextTitle {
+  position: absolute;
+  margin-left: 113%;
+  margin-top: 10%;
+  width: 67px;
+  text-align: center;
+}
+
+.studyMain-question {
+  position: absolute;
+  top: 0;
+  margin-top: 50px;
+}

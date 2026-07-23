@@ -1,0 +1,32 @@
+.basic-learning-wordabsorb-img {
+  width: 200px;
+  height: 200px;
+  border: solid 1px black;
+}
+
+.basic-learning-wordabsorb-word {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.basic-learning-wordabsorb-word-meaning {
+  padding: 20px;
+}
+
+.basic-learning-wordabsorb-audio {
+  padding: 10px;
+}
+
+.basic-learning-wordabsorb-three button {
+  margin: 40px;
+  padding: 10px 20px;
+}
+
+.answer-send-button {
+  position: absolute;
+  margin-left: 500px;
+
+  button {
+    padding: 10px 20px;
+  }
+}

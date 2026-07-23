@@ -1,0 +1,14 @@
+.basic-learning-sentencediary-img {
+  width: 200px;
+  height: 200px;
+  border: solid 1px black;
+}
+
+.basic-learning-sentencediary-sentence-container {
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.basic-learning-sentencediary-sentence {
+  padding: 10px;
+}

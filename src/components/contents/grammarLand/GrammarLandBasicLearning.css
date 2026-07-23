@@ -1,0 +1,13 @@
+.GrammarLand-basic-learning-word {
+  background-color: red;
+  width: 600px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GrammarLand-basic-learning-explanation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

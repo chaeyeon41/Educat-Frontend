@@ -1,0 +1,248 @@
+.mainstudent-container {
+  width: 100%;
+  height: calc(100vh - 60px);
+  overflow: hidden;
+}
+
+.mainstudent-container1 {
+  width: 100%;
+  height: calc(170vh - 60px);
+  background-size: cover; /* 배경 이미지가 컨테이너를 모두 채우도록 설정합니다. */
+  /* 다른 스타일링 속성을 필요에 따라 추가할 수 있습니다. */
+  overflow: hidden;
+}
+
+.mainstudent-container-one {
+  width: 100%;
+  height: calc(70vh - 30px);
+  overflow: hidden;
+}
+.mainstudent-container-two {
+  width: 100%;
+  height: calc(100vh - 30px);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainstudent-container2 {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.mainstudent-chart {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  overflow: hidden;
+}
+
+.mainstudent-chart-left-container {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainstudent-chart-all {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add this line for shadow */
+  border-radius: 20px;
+}
+
+.mainstudent-chart-right-container {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainstudent-chart-three-box {
+  width: 100%;
+  height: 32%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainstudent-chart-three-box-chart {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add this line for shadow */
+  border-radius: 10px;
+}
+
+.goContent {
+  cursor: pointer;
+}
+
+.mainstudent-chart-three-box-chart h1 {
+  cursor: pointer;
+}
+
+.mainstudent-progress-recommend {
+  width: 100%;
+  display: flex;
+  height: 30%;
+}
+
+.mainstudent-progress-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.mainstudent-recommend-right-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+}
+
+.mainstudent-progress-bar-container {
+  width: 88.3%;
+  height: 70%;
+  padding: 2.5%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add this line for shadow */
+}
+
+.progress-bar-container {
+  width: 80%;
+  height: 50px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.mainstudent-recommend-container {
+  width: 88%;
+  height: 70%;
+  border-radius: 20px;
+  padding: 2.5%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add this line for shadow */
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.3s ease;
+}
+
+.mainstudent-progress {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.mainstudent-recommend-keys {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mainstudent-recommend-key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainstudent-recommend-key span {
+  margin-top: 10%;
+}
+
+.mainstudent-recommend-question {
+  text-align: center;
+  height: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* 추가된 스타일 */
+
+.mainstudent-chart-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainstudent-chart-box-container {
+  width: 90%;
+  height: 90%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add this line for shadow */
+}
+
+.mainstudent-gocontent-box-container {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add this line for shadow */
+}
+
+.mainstudent-chart-box-container h2 {
+  height: 0;
+}
+
+.mainstudent-chart-box {
+  width: 33.3%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainstudent-chart-box h2 {
+  text-align: center;
+}
+
+.chart-wrapper {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

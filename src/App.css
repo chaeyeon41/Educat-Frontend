@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "JalnanGothic", sans-serif; /* Fallback to sans-serif if custom font fails to load */
+}
+
+button {
+  font-family: "JalnanGothic", sans-serif; /* Fallback to sans-serif if custom font fails to load */
+}
+
+input {
+  font-family: "JalnanGothic", sans-serif; /* Fallback to sans-serif if custom font fails to load */
+}

@@ -1,0 +1,22 @@
+.basic-learning-wordabsorb-three {
+  position: absolute;
+  margin-top: 520px;
+}
+
+.basic-learning-wordabsorb-three button {
+  background-color: inherit;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 3px solid violet;
+  transition: background-color 0.3s;
+  background-color: white;
+  cursor: pointer;
+}
+
+.basic-learning-wordabsorb-three button:hover {
+  background-color: rgba(236, 231, 254, 0.1); /* 호버 시 색상 조금 어둡게 */
+}
+
+.basic-learning-wordabsorb-three button.clicked {
+  background-color: rgba(236, 231, 254, 1); /* 클릭 시 색상 더 어둡게 */
+}

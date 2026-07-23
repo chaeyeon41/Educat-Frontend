@@ -1,0 +1,9 @@
+.deep-button-container {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 0px;
+}
+
+.deep-button-container button {
+  padding: 10px;
+}

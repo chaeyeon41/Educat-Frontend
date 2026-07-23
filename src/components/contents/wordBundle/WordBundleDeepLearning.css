@@ -1,0 +1,15 @@
+.wordBundle-basic-learning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wordBundle-deep-learning-img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin-right: 100px;
+}
+
+.wordBundle-deep-learning-meaning {
+  width: 200px;
+}

@@ -1,0 +1,39 @@
+import React, { useState } from "react";
+import "./WordAbsorbBasicLearning.css";
+
+const WordAbsorbBasicLearning = ({ contents }) => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const toggleAudio = () => {
+    const audio = document.getElementById("song-audio");
+    if (isPlaying) {
+      audio.pause();
+    } else {
+      audio.play();
+    }
+    setIsPlaying(!isPlaying);
+  };
+  if (!contents.basic) {
+    return <div>Loading...</div>;
+  }
+
+  return (
+    <>
+      <img
+        src={contents.basic.image}
+        alt="이미지"
+        className="wordBundle-basic-learning-img"
+        onClick={toggleAudio}
+      />
+      <div className="wordBundle-basic-learning-word">
+        <h1>{contents.basic.word}</h1>
+        <h3>{contents.basic.wordMeaning}</h3>
+      </div>
+      <audio id="song-audio" controls style={{ display: "none" }}>
+        <source src={contents.basic.file} type="audio/mpeg" />
+      </audio>
+    </>
+  );
+};
+
+export default WordAbsorbBasicLearning;

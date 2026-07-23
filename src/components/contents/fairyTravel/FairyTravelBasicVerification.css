@@ -1,0 +1,22 @@
+.fairy-travel-verification-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fairy-travel-verification-image {
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fairy-travel-verification-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fairy-travel-audio {
+  margin-top: 350px;
+}

@@ -1,0 +1,41 @@
+.GrammarFairy-basic-ver {
+  width: 700px;
+}
+.GrammarFairy-basic-ver-title {
+  margin-bottom: 150px;
+}
+.GrammarFairy-basic-ver-answer1 {
+  width: 200px;
+  height: 100px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.GrammarFairy-basic-ver-answer2 {
+  width: 200px;
+  height: 100px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.GrammarFairy-basic-ver-answer-gather {
+  display: flex;
+}
+.GrammarFairy-basic-ver-send {
+  width: 100px;
+  height: 50px;
+  margin-top: 150px;
+  margin-left: 550px;
+}
+.GrammarFairy-basic-ver-answer1:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.GrammarFairy-basic-ver-answer2:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

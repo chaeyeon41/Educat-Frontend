@@ -1,0 +1,17 @@
+.basic-verification-sentencediary-input {
+  margin-top: 50px;
+
+  input {
+    padding: 20px;
+  }
+}
+
+.basic-verification-sentencediary-button {
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 350px;
+
+  button {
+    padding: 10px 20px;
+  }
+}

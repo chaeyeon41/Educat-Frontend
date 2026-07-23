@@ -1,0 +1,26 @@
+.basic-verification-sentencediary-question {
+  position: absolute;
+  margin-bottom: 350px;
+}
+
+.basic-verification-sentencediary-audio-input {
+  position: absolute;
+  margin-top: 500px;
+
+  button {
+    padding: 8px;
+    margin-right: 10px;
+    border: 3px solid violet;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+
+  input {
+    width: 300px;
+    padding: 10px 0px;
+    border: 3px solid violet;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+}

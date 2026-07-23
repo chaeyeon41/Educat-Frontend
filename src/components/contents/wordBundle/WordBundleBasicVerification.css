@@ -1,0 +1,21 @@
+.button-container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.button-container button {
+  padding: 10px;
+}
+
+.input-container {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -30px;
+}
+
+.input-container input {
+  padding: 10px;
+}

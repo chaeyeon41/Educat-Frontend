@@ -1,0 +1,19 @@
+.basic-verification-songcountry-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.song-country-verification-image {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.song-country-verification-image img {
+	max-width: 100%;
+	max-height: 100%;
+}

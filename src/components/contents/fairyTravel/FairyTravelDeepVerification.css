@@ -1,0 +1,72 @@
+/* .fairy-world-deep-verification-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fairy-travel-deep-verification-problem {
+  border: 1px solid black;
+  width: 500px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+
+.fairy-travel-deep-verification-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.fairy-travel-deep-verification-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  width: 300px;
+  height: 60px;
+  margin-bottom: 20px;
+} */
+
+.deep-verification-fairyTravel-three {
+  position: absolute;
+  margin-top: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.deep-verification-fairyTravel-three button {
+  background-color: inherit;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 3px solid violet;
+  transition: background-color 0.3s;
+  background-color: white;
+  padding: 8px;
+  margin: 20px;
+}
+
+.deep-verification-fairyTravel-three button:hover {
+  background-color: rgba(236, 231, 254, 0.1); /* 호버 시 색상 조금 어둡게 */
+}
+
+.deep-verification-fairyTravel-three button.clicked {
+  background-color: rgba(236, 231, 254, 1); /* 클릭 시 색상 더 어둡게 */
+}
+
+.deep-verification-fairyTravel-explaination {
+  max-width: 700px;
+  padding: 20px 50px;
+  height: 150px;
+  border: 3px solid violet;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+  background-color: white;
+}

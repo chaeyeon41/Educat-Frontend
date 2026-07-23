@@ -1,0 +1,9 @@
+.sentenceabsorb-basic-container {
+  display: flex;
+}
+
+.basic-learning-sentenceabsorb-character-speaking {
+  margin: auto;
+  width: 400px;
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+.fairy-world-verification-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.fairy-world-verification-image {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.fairy-world-verification-image img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.fairy-world-verification-buttons {
+	display: flex;
+	justify-content: center;
+
+}
+
+.fairy-world-verification-buttons button {
+	margin: 0 10px;
+	padding: 10px 20px;
+	width: 200px;
+	height: 50px;
+	margin-bottom: 20px;
+}
